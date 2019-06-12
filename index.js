@@ -17,6 +17,7 @@ function johnLennonFacts(array) {
   ]
   let i = 0
   while(newArray.length < array.length) {
+    array.push(newArray[i] + "!!!")
   }
   return newArray
 }
